@@ -45,7 +45,7 @@ class Ship2 extends eui.Component
     /**抓到东西*/
     public catchIt(sth: Monster): void
     {
-        this.tw2.setPaused(true);
+        this.changeline();
         this.catched = sth;
         this.catched.x = (40 - sth.width)/2; 
         this.catched.y = 36;
@@ -87,36 +87,37 @@ class Ship2 extends eui.Component
     /**点击伸出去抓*/
     public start(): void
     {
-        if (this.isCatch || this.tw1 == null)
-        {
-            return;
-        }
-        this.tw1.setPaused(true);
-        this.isCatch = true;
+        this.changeline();
+        // if (this.isCatch || this.tw1 == null)
+        // {
+        //     return;
+        // }
+        // // this.tw1.setPaused(true);
+        // this.isCatch = true;
 
-        this.tw2 = null;
-        this.tw2 = egret.Tween.get(this, { onChange: this.changeline, onChangeObj: this });
+        // this.tw2 = null;
+        // this.tw2 = egret.Tween.get(this, { onChange: this.changeline, onChangeObj: this });
 
-        this.line.visible = true;
+        // this.line.visible = true;
 
-        var r: number = this.rotation;
-        var hudu: number = r * Math.PI / 180;
-        var tag: number = Math.tan(hudu);
-        var w = tag * this.h;
-        var tarX: number = this.zeroX - w;
-        var tarY: number = this.h;
-        if (tarX < 50)
-        {
-            tarX = 50;
-            tarY = GameLogic.getInstance().GameStage_width / 2 / tag;
-        }
-        else if (tarX > GameLogic.getInstance().GameStage_width - 50)
-        {
-            tarX = GameLogic.getInstance().GameStage_width - 50;
-            tarY = -GameLogic.getInstance().GameStage_width / 2 / tag;
-        }
-        var time: number = this.getTime(this.getDistance(tarX, tarY));
-        this.tw2.to({ x: tarX, y: tarY }, time).wait(100).call(this.goBack,this);
+        // var r: number = this.rotation;
+        // var hudu: number = r * Math.PI / 180;
+        // var tag: number = Math.tan(hudu);
+        // var w = tag * this.h;
+        // var tarX: number = this.zeroX - w;
+        // var tarY: number = this.h;
+        // if (tarX < 50)
+        // {
+        //     tarX = 50;
+        //     tarY = GameLogic.getInstance().GameStage_width / 2 / tag;
+        // }
+        // else if (tarX > GameLogic.getInstance().GameStage_width - 50)
+        // {
+        //     tarX = GameLogic.getInstance().GameStage_width - 50;
+        //     tarY = -GameLogic.getInstance().GameStage_width / 2 / tag;
+        // }
+        // var time: number = this.getTime(this.getDistance(tarX, tarY));
+        // this.tw2.to({ x: tarX, y: tarY }, time).wait(100).call(this.goBack,this);
     }
     
     private goBack():void
@@ -134,10 +135,6 @@ class Ship2 extends eui.Component
         this.line.graphics.moveTo(this.zeroX, this.zeroY);
         this.line.graphics.lineTo(this.x, this.y);
         this.line.graphics.endFill();
-        
-        if (GameLogic.getInstance().game != null && this.catched == null){
-            GameLogic.getInstance().game.checkCatch(this.player);
-        }
     }
 
     private setScore(): void
