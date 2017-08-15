@@ -68,6 +68,7 @@ class GameLogic {
             obj = new SendData('create', {});
         }
         this.sendGameData(obj);
+        console.log('socketOpen',this.GameStage_width,this.GameStage_height);
     }
 
     public sendGameData(arr: any) {
@@ -85,7 +86,7 @@ class GameLogic {
         let msg = this.WebSocket.readUTF();
         let recData = JSON.parse(msg);
         this.currentReqTime = +new Date();
-        console.log(this.currentReqTime);
+        // console.log(this.currentReqTime);
 
         switch (recData.type) {
             case 'leave':
@@ -94,6 +95,7 @@ class GameLogic {
             case 'startGame':
                 //do recData.msg
                 this.createGame(recData.msg);
+                console.log(recData.msg);
                 this.beginGame();
                 break;
             case 'updateTank':

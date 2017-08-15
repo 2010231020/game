@@ -79,7 +79,7 @@ var Ship = (function (_super) {
         this.tw2 = null;
         this.tw2 = egret.Tween.get(this, { onChange: this.changeline, onChangeObj: this });
         this.line.visible = true;
-        var r = this.rotation;
+        var r = this.rotation; //斜率
         var hudu = r * Math.PI / 180;
         var tag = Math.tan(hudu);
         var w = tag * this.h;
@@ -87,13 +87,13 @@ var Ship = (function (_super) {
         var tarY = this.h;
         if (tarX < 50) {
             tarX = 50;
-            tarY = GameLogic.getInstance().GameStage_width / 2 / tag;
         }
         else if (tarX > GameLogic.getInstance().GameStage_width - 50) {
             tarX = GameLogic.getInstance().GameStage_width - 50;
             tarY = -GameLogic.getInstance().GameStage_width / 2 / tag;
         }
         var time = this.getTime(this.getDistance(tarX, tarY));
+        //算出终点，未碰到任何物体停顿100ms直接返回
         this.tw2.to({ x: tarX, y: tarY }, time).wait(100).call(this.goBack, this);
     };
     Ship.prototype.goBack = function () {

@@ -45,6 +45,7 @@ var GameLogic = (function () {
             obj = new SendData('create', {});
         }
         this.sendGameData(obj);
+        console.log('socketOpen', this.GameStage_width, this.GameStage_height);
     };
     GameLogic.prototype.sendGameData = function (arr) {
         var cmd = JSON.stringify(arr);
@@ -59,7 +60,7 @@ var GameLogic = (function () {
         var msg = this.WebSocket.readUTF();
         var recData = JSON.parse(msg);
         this.currentReqTime = +new Date();
-        console.log(this.currentReqTime);
+        // console.log(this.currentReqTime);
         switch (recData.type) {
             case 'leave':
                 this.closeSocket();
@@ -67,6 +68,7 @@ var GameLogic = (function () {
             case 'startGame':
                 //do recData.msg
                 this.createGame(recData.msg);
+                console.log(recData.msg);
                 this.beginGame();
                 break;
             case 'updateTank':
