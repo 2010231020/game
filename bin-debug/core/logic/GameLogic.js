@@ -187,6 +187,6 @@ var GameLogic = (function () {
     };
     return GameLogic;
 }());
-GameLogic.gameHost = 'http://192.168.10.210:3000';
+GameLogic.gameHost = 'http://localhost:3000';
 __reflect(GameLogic.prototype, "GameLogic");
 //# sourceMappingURL=GameLogic.js.map

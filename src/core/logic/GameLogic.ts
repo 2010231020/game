@@ -7,7 +7,7 @@ class GameLogic {
     public constructor() {
     }
 
-    public static gameHost = 'http://192.168.10.210:3000';
+    public static gameHost = 'http://localhost:3000';
     private static _instance: GameLogic;
     private WebSocket: egret.WebSocket;
     public player: number;
