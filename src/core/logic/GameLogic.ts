@@ -135,12 +135,15 @@ class GameLogic {
             vo1.xPos = tank.leftHook.x;
             vo1.yPos = tank.leftHook.y;
             vo1.score = tank.leftHook.score;
+            vo1.r = tank.leftHook.r;
             this.shipData.push(vo1);
             let vo2: ShipVO = new ShipVO();
             vo2.xPos = tank.rightHook.x;
             vo2.yPos = tank.rightHook.y;
             vo2.score = tank.rightHook.score;
+            vo2.r = tank.rightHook.r;
             this.shipData.push(vo2);
+            // console.log(vo1.r,vo2.r);
         }
     }
 
@@ -165,6 +168,7 @@ class GameLogic {
                 vo.swimSpeed = parseInt(arr[vo.id]['swimSpeed']);
                 vo.xPos = parseInt(tank.fishList[i]['x']);
                 vo.yPos = parseInt(tank.fishList[i]['y']);
+                vo.r=tank.leftHook.r;
                 this.data.push(vo);
             }
         }
@@ -178,6 +182,7 @@ class GameLogic {
             let vo2: ShipVO = new ShipVO();
             vo2.xPos = tank.rightHook.x;
             vo2.yPos = tank.rightHook.y;
+            vo2.r=tank.rightHook.r;
             this.shipData.push(vo2);
         }
 
