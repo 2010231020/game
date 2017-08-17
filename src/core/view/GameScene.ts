@@ -58,16 +58,15 @@ class GameScene extends eui.Component {
         // }, this, [player]);
     }
     /**清除分数*/
-    private clearScore(player: number): void {
-        let score_txt = `score_txt_${player}p`;
-        this[`total_score_txt_${player}p`].text = this[`score_${player}p`].toString();
-        this[score_txt].visible = false;
-        this[score_txt].y = 100;
-        this[score_txt].alpha = 1;
+    // private clearScore(player: number): void {
+    //     let score_txt = `score_txt_${player}p`;
+    //     this[`total_score_txt_${player}p`].text = this[`score_${player}p`].toString();
+    //     this[score_txt].visible = false;
+    //     this[score_txt].y = 100;
+    //     this[score_txt].alpha = 1;
 
-        GameLogic.getInstance().sendGameData(new SendData('goOn', {}));
-
-    }
+    //     GameLogic.getInstance().sendGameData(new SendData('goOn', {}));
+    // }
     /**更改别的玩家分数*/
     public setAnotherScore(player: number, score: string): void {
         if (this.player != player) {
@@ -109,8 +108,7 @@ class GameScene extends eui.Component {
 
     /**出钩*/
     private start(): void {
-        let sendData = new SendData('startThrow', {});
-        GameLogic.getInstance().sendGameData(sendData);
+        GameLogic.getInstance().sendGameData(Util.SEND_MESSAGE,'startThrow');
     }
 
     /**移除所有怪物*/

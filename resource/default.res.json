@@ -1,94 +1,99 @@
 {
-	"groups":[
+	"groups": [
 		{
-			"keys":"gold_png",
-			"name":"preload"
+			"keys": "gold_png,handler_json",
+			"name": "preload"
 		},
 		{
-			"keys":"l1b_jpg,l3b_jpg,s13_png,s7_png,submit_png,t_jpg,zz_hi_png,zz_l2b_jpg,zz_ng_png,zz_s13_png,zz_s14_png,monster1_png,stone1_png,gold_png,mission_json,gouzi_png",
-			"name":"game"
+			"keys": "l1b_jpg,l3b_jpg,s13_png,s7_png,submit_png,t_jpg,zz_hi_png,zz_l2b_jpg,zz_ng_png,zz_s13_png,zz_s14_png,monster1_png,stone1_png,gold_png,mission_json,gouzi_png",
+			"name": "game"
 		}
 	],
-	"resources":[
+	"resources": [
 		{
-			"name":"l1b_jpg",
-			"type":"image",
-			"url":"assets/game_ui/l1b.jpg"
+			"name": "l1b_jpg",
+			"type": "image",
+			"url": "assets/game_ui/l1b.jpg"
 		},
 		{
-			"name":"l3b_jpg",
-			"type":"image",
-			"url":"assets/game_ui/l3b.jpg"
+			"name": "l3b_jpg",
+			"type": "image",
+			"url": "assets/game_ui/l3b.jpg"
 		},
 		{
-			"name":"s13_png",
-			"type":"image",
-			"url":"assets/game_ui/s13.png"
+			"name": "s13_png",
+			"type": "image",
+			"url": "assets/game_ui/s13.png"
 		},
 		{
-			"name":"s7_png",
-			"type":"image",
-			"url":"assets/game_ui/s7.png"
+			"name": "s7_png",
+			"type": "image",
+			"url": "assets/game_ui/s7.png"
 		},
 		{
-			"name":"submit_png",
-			"type":"image",
-			"url":"assets/game_ui/submit.png"
+			"name": "submit_png",
+			"type": "image",
+			"url": "assets/game_ui/submit.png"
 		},
 		{
-			"name":"t_jpg",
-			"type":"image",
-			"url":"assets/game_ui/t.jpg"
+			"name": "t_jpg",
+			"type": "image",
+			"url": "assets/game_ui/t.jpg"
 		},
 		{
-			"name":"zz_hi_png",
-			"type":"image",
-			"url":"assets/game_ui/zz_hi.png"
+			"name": "zz_hi_png",
+			"type": "image",
+			"url": "assets/game_ui/zz_hi.png"
 		},
 		{
-			"name":"zz_l2b_jpg",
-			"type":"image",
-			"url":"assets/game_ui/zz_l2b.jpg"
+			"name": "zz_l2b_jpg",
+			"type": "image",
+			"url": "assets/game_ui/zz_l2b.jpg"
 		},
 		{
-			"name":"zz_ng_png",
-			"type":"image",
-			"url":"assets/game_ui/zz_ng.png"
+			"name": "zz_ng_png",
+			"type": "image",
+			"url": "assets/game_ui/zz_ng.png"
 		},
 		{
-			"name":"zz_s13_png",
-			"type":"image",
-			"url":"assets/game_ui/zz_s13.png"
+			"name": "zz_s13_png",
+			"type": "image",
+			"url": "assets/game_ui/zz_s13.png"
 		},
 		{
-			"name":"zz_s14_png",
-			"type":"image",
-			"url":"assets/game_ui/zz_s14.png"
+			"name": "zz_s14_png",
+			"type": "image",
+			"url": "assets/game_ui/zz_s14.png"
 		},
 		{
-			"name":"monster1_png",
-			"type":"image",
-			"url":"assets/game_ui/monster1.png"
+			"name": "monster1_png",
+			"type": "image",
+			"url": "assets/game_ui/monster1.png"
 		},
 		{
-			"name":"stone1_png",
-			"type":"image",
-			"url":"assets/game_ui/stone1.png"
+			"name": "stone1_png",
+			"type": "image",
+			"url": "assets/game_ui/stone1.png"
 		},
 		{
-			"name":"gold_png",
-			"type":"image",
-			"url":"assets/game_ui/gold.png"
+			"name": "gold_png",
+			"type": "image",
+			"url": "assets/game_ui/gold.png"
 		},
 		{
-			"name":"mission_json",
-			"type":"json",
-			"url":"config/mission.json"
+			"name": "mission_json",
+			"type": "json",
+			"url": "config/mission.json"
 		},
 		{
-			"name":"gouzi_png",
-			"type":"image",
-			"url":"assets/game_ui/gouzi.png"
+			"name": "gouzi_png",
+			"type": "image",
+			"url": "assets/game_ui/gouzi.png"
+		},
+		{
+			"name": "handler_json",
+			"type": "json",
+			"url": "config/handler.json"
 		}
 	]
 }
