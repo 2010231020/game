@@ -10,7 +10,7 @@ class Ship2 extends eui.Component
     private zeroX: number;
     private zeroY: number;
     private catchID:number = -1;
-
+    private lineColor: number=0xFF00FF;
     public constructor()
     {
         super();
@@ -36,7 +36,7 @@ class Ship2 extends eui.Component
     private changeline(): void
     {
         this.line.graphics.clear();
-        this.line.graphics.lineStyle(2, 0xFF00FF);
+        this.line.graphics.lineStyle(2, this.lineColor);
         this.line.graphics.moveTo(this.zeroX, this.zeroY);
         this.line.graphics.lineTo(this.x, this.y);
         this.line.graphics.endFill();
