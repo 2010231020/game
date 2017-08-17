@@ -22,5 +22,11 @@
         "image": "stone1_png",
         "score": -50,
         "swimSpeed": 8
+    },
+    {
+        "id": 4,
+        "image": "stone1_png",
+        "score": -50,
+        "swimSpeed": 8
     }
 ]

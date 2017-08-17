@@ -8,6 +8,12 @@ class Ship extends eui.Component {
     private zeroX: number;
     private zeroY: number;
     private catchID: number = -1;
+    private catched: egret.DisplayObjectContainer;
+    /**摇摆动画*/
+    private tw1: egret.Tween;
+    /**抓怪动画*/
+    private tw2: egret.Tween;
+    private isCatch: boolean;
     private lineColor: number=0xFF00FF;
     public constructor() {
         super();

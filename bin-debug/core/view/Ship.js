@@ -41,6 +41,26 @@ var Ship = (function (_super) {
         this.line.graphics.lineTo(this.x, this.y);
         this.line.graphics.endFill();
     };
+    Ship.prototype.setScore = function () {
+        if (this.catched != null && this.catched.parent != null) {
+            this.catched.parent.removeChild(this.catched);
+            GameLogic.getInstance().sendGameData(new SendData('addMonster', { catchID: this.catchID, randomY: Math.random() * 300 + 240 }));
+        }
+        else {
+        }
+        this.line.visible = false;
+        this.catched = null;
+    };
+    Ship.prototype.goOn = function () {
+        this.isCatch = false;
+        this.tw1.setPaused(false);
+    };
+    Ship.prototype.clear = function () {
+        egret.Tween.removeTweens(this);
+        this.tw1 = null;
+        this.tw2 = null;
+        this.isCatch = false;
+    };
     return Ship;
 }(eui.Component));
 __reflect(Ship.prototype, "Ship");
