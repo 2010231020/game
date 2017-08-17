@@ -16,7 +16,7 @@ class Ship2 extends eui.Component
         super();
         this.skinName = "ShipSkin2";
     }
-
+//
     protected childrenCreated(): void
     {
         super.childrenCreated();

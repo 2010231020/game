@@ -13,7 +13,7 @@ class Ship extends eui.Component {
         super();
         this.skinName = "ShipSkin";
     }
-
+//
     protected childrenCreated(): void {
         super.childrenCreated();
         this.zeroX = this.x;
