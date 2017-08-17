@@ -3,31 +3,17 @@
   <component name="ChangeListManager">
     <list default="true" id="7a69ba69-1e65-428d-927c-85aea8fa344f" name="Default" comment="stash my project">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin-debug/core/logic/GameLogic.js.map" afterPath="$PROJECT_DIR$/bin-debug/core/logic/GameLogic.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin-debug/core/view/Ship.js" afterPath="$PROJECT_DIR$/bin-debug/core/view/Ship.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin-debug/core/view/Ship.js.map" afterPath="$PROJECT_DIR$/bin-debug/core/view/Ship.js.map" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin-debug/core/view/Ship2.js" afterPath="$PROJECT_DIR$/bin-debug/core/view/Ship2.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin-debug/core/view/Ship2.js.map" afterPath="$PROJECT_DIR$/bin-debug/core/view/Ship2.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/exml.e.d.ts" afterPath="$PROJECT_DIR$/libs/exml.e.d.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/modules/egret/egret.d.ts" afterPath="$PROJECT_DIR$/libs/modules/egret/egret.d.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/modules/egret/egret.js" afterPath="$PROJECT_DIR$/libs/modules/egret/egret.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/modules/egret/egret.min.js" afterPath="$PROJECT_DIR$/libs/modules/egret/egret.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/modules/egret/egret.native.js" afterPath="$PROJECT_DIR$/libs/modules/egret/egret.native.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/modules/egret/egret.native.min.js" afterPath="$PROJECT_DIR$/libs/modules/egret/egret.native.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/modules/egret/egret.web.js" afterPath="$PROJECT_DIR$/libs/modules/egret/egret.web.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/modules/egret/egret.web.min.js" afterPath="$PROJECT_DIR$/libs/modules/egret/egret.web.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/modules/eui/eui.d.ts" afterPath="$PROJECT_DIR$/libs/modules/eui/eui.d.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/modules/eui/eui.js" afterPath="$PROJECT_DIR$/libs/modules/eui/eui.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/modules/eui/eui.min.js" afterPath="$PROJECT_DIR$/libs/modules/eui/eui.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/modules/res/res.d.ts" afterPath="$PROJECT_DIR$/libs/modules/res/res.d.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/modules/res/res.js" afterPath="$PROJECT_DIR$/libs/modules/res/res.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/modules/socket/socket.d.ts" afterPath="$PROJECT_DIR$/libs/modules/socket/socket.d.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/modules/socket/socket.js" afterPath="$PROJECT_DIR$/libs/modules/socket/socket.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/modules/tween/tween.d.ts" afterPath="$PROJECT_DIR$/libs/modules/tween/tween.d.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/modules/tween/tween.js" afterPath="$PROJECT_DIR$/libs/modules/tween/tween.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/manifest.json" afterPath="$PROJECT_DIR$/manifest.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resource/default.thm.json" afterPath="$PROJECT_DIR$/resource/default.thm.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/core/view/Ship.ts" afterPath="$PROJECT_DIR$/src/core/view/Ship.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/core/view/Ship2.ts" afterPath="$PROJECT_DIR$/src/core/view/Ship2.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/template/runtime/native_require.js" afterPath="$PROJECT_DIR$/template/runtime/native_require.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin-debug/core/vo/MonsterVO.js.map" afterPath="$PROJECT_DIR$/bin-debug/core/vo/MonsterVO.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin-debug/core/vo/RecData.js" afterPath="$PROJECT_DIR$/bin-debug/core/vo/RecData.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin-debug/core/vo/ShipVO.js.map" afterPath="$PROJECT_DIR$/bin-debug/core/vo/ShipVO.js.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/core/vo/MonsterVO.ts" afterPath="$PROJECT_DIR$/src/core/vo/MonsterVO.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/core/vo/RecData.ts" afterPath="$PROJECT_DIR$/src/core/vo/RecData.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/core/vo/ShipVO.ts" afterPath="$PROJECT_DIR$/src/core/vo/ShipVO.ts" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -47,34 +33,16 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Main.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/bin-debug/Main.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="450">
-              <caret line="39" column="21" lean-forward="false" selection-start-line="39" selection-start-column="21" selection-end-line="39" selection-end-column="21" />
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="manifest.json" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/manifest.json">
+      <file leaf-file-name="Ship.ts" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/core/view/Ship.ts">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="eui.d.ts" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/libs/modules/eui/eui.d.ts">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="202">
-              <caret line="13523" column="8" lean-forward="false" selection-start-line="13523" selection-start-column="8" selection-end-line="13523" selection-end-column="8" />
-              <folding />
+              <folding>
+                <marker date="1502941142533" expanded="true" signature="59:1049" ph="{...}" />
+                <marker date="1502941142533" expanded="true" signature="550:766" ph="{...}" />
+                <marker date="1502941142533" expanded="true" signature="799:1047" ph="{...}" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -82,8 +50,8 @@
       <file leaf-file-name="Ship2.ts" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/core/view/Ship2.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="202">
-              <caret line="15" column="12" lean-forward="false" selection-start-line="15" selection-start-column="12" selection-end-line="15" selection-end-column="12" />
+            <state relative-caret-position="752">
+              <caret line="35" column="30" lean-forward="false" selection-start-line="35" selection-start-column="30" selection-end-line="35" selection-end-column="30" />
               <folding />
             </state>
           </provider>
@@ -98,6 +66,7 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/src/core/view/Ship2.ts" />
       </list>
     </option>
   </component>
@@ -143,38 +112,6 @@
               <item name="game" type="b2602c69:ProjectViewProjectNode" />
               <item name="game" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="game" type="b2602c69:ProjectViewProjectNode" />
-              <item name="game" type="462c0819:PsiDirectoryNode" />
-              <item name="bin-debug" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="game" type="b2602c69:ProjectViewProjectNode" />
-              <item name="game" type="462c0819:PsiDirectoryNode" />
-              <item name="bin-debug" type="462c0819:PsiDirectoryNode" />
-              <item name="Main.js" type="620a8d5e:NestingTreeNode" />
-            </path>
-            <path>
-              <item name="game" type="b2602c69:ProjectViewProjectNode" />
-              <item name="game" type="462c0819:PsiDirectoryNode" />
-              <item name="libs" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="game" type="b2602c69:ProjectViewProjectNode" />
-              <item name="game" type="462c0819:PsiDirectoryNode" />
-              <item name="resource" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="game" type="b2602c69:ProjectViewProjectNode" />
-              <item name="game" type="462c0819:PsiDirectoryNode" />
-              <item name="resource" type="462c0819:PsiDirectoryNode" />
-              <item name="config" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="game" type="b2602c69:ProjectViewProjectNode" />
-              <item name="game" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -183,7 +120,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="nodejs_interpreter_path" value="C:/Program Files/nodejs/node" />
     <property name="js.eslint.eslintPackage" value="" />
@@ -263,7 +200,10 @@
       <updated>1502073108140</updated>
       <workItem from="1502073109283" duration="381000" />
       <workItem from="1502788194815" duration="1581000" />
-      <workItem from="1502789795503" duration="656000" />
+      <workItem from="1502789795503" duration="674000" />
+      <workItem from="1502850606622" duration="4000" />
+      <workItem from="1502936617075" duration="30000" />
+      <workItem from="1502937545430" duration="3032000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1502073193677</created>
@@ -279,11 +219,18 @@
       <option name="project" value="LOCAL" />
       <updated>1502073401097</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="stash my project">
+      <created>1502790459041</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1502790459041</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2618000" />
+    <option name="totallyTimeSpent" value="5702000" />
   </component>
   <component name="TodoView" selected-index="3">
     <todo-panel id="selected-file">
@@ -296,17 +243,17 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="TypeScript" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32905984" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24947916" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24920969" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32905984" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="调试" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="调试" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3284055" sideWeight="0.50625" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32905984" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="消息" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32910052" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="运行" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32769555" sideWeight="0.49375" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="运行" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -314,6 +261,7 @@
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="消息" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32910052" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -335,6 +283,8 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="CHECK_NEW_TODO" value="false" />
     <MESSAGE value="first commit" />
     <MESSAGE value="all commit" />
     <MESSAGE value="stash my project" />
@@ -347,29 +297,9 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/bin-debug/Main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md" />
-    <entry file="file://$PROJECT_DIR$/bin-debug/Main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
+        <state relative-caret-position="360">
           <caret line="39" column="21" lean-forward="false" selection-start-line="39" selection-start-column="21" selection-end-line="39" selection-end-column="21" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -383,7 +313,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/libs/modules/eui/eui.d.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="202">
+        <state relative-caret-position="405690">
           <caret line="13523" column="8" lean-forward="false" selection-start-line="13523" selection-start-column="8" selection-end-line="13523" selection-end-column="8" />
           <folding />
         </state>
@@ -391,8 +321,132 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/core/view/Ship2.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="202">
+        <state relative-caret-position="840">
+          <caret line="28" column="38" lean-forward="false" selection-start-line="28" selection-start-column="38" selection-end-line="28" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bin-debug/Main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="39" column="21" lean-forward="false" selection-start-line="39" selection-start-column="21" selection-end-line="39" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/manifest.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/libs/modules/eui/eui.d.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405690">
+          <caret line="13523" column="8" lean-forward="false" selection-start-line="13523" selection-start-column="8" selection-end-line="13523" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/core/view/Ship2.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
           <caret line="15" column="12" lean-forward="false" selection-start-line="15" selection-start-column="12" selection-end-line="15" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bin-debug/Main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="39" column="21" lean-forward="false" selection-start-line="39" selection-start-column="21" selection-end-line="39" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/manifest.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/libs/modules/eui/eui.d.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405690">
+          <caret line="13523" column="8" lean-forward="false" selection-start-line="13523" selection-start-column="8" selection-end-line="13523" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/core/view/Ship2.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="15" column="12" lean-forward="false" selection-start-line="15" selection-start-column="12" selection-end-line="15" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bin-debug/Main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md" />
+    <entry file="file://$PROJECT_DIR$/libs/modules/eui/eui.d.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="810">
+          <caret line="13523" column="8" lean-forward="false" selection-start-line="13523" selection-start-column="8" selection-end-line="13523" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/manifest.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bin-debug/Main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="39" column="21" lean-forward="false" selection-start-line="39" selection-start-column="21" selection-end-line="39" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/core/view/Ship.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1502941142533" expanded="true" signature="59:1049" ph="{...}" />
+            <marker date="1502941142533" expanded="true" signature="550:766" ph="{...}" />
+            <marker date="1502941142533" expanded="true" signature="799:1047" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/core/view/Ship2.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="752">
+          <caret line="35" column="30" lean-forward="false" selection-start-line="35" selection-start-column="30" selection-end-line="35" selection-end-column="30" />
           <folding />
         </state>
       </provider>

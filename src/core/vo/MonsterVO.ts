@@ -41,6 +41,9 @@ class MonsterVO {
 	
 	/**Y*/
 	public yPos:number;
-
+	/**斜率*/
+	public r:number;
+	/**出钩状态*/
+	public  isThrowing:boolean;
 
 }

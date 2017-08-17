@@ -7,13 +7,13 @@ var RecData = (function () {
         var leng = tmp.length;
         var hookDataRange = 7;
         this.leftHook = {
-            isThrowing: tmp[leng - hookDataRange - 6],
+            isThrowing: tmp[leng - hookDataRange - 7],
             x: tmp[leng - hookDataRange - 6], y: tmp[leng - hookDataRange - 5],
             r: tmp[leng - hookDataRange - 4], score: tmp[leng - hookDataRange - 3],
             hasHooked: tmp[leng - hookDataRange - 2], hookedFishType: tmp[leng - hookDataRange - 1]
         };
         this.rightHook = {
-            isThrowing: tmp[leng - 6],
+            isThrowing: tmp[leng - 7],
             x: tmp[leng - 6], y: tmp[leng - 5],
             r: tmp[leng - 4], score: tmp[leng - 3],
             hasHooked: tmp[leng - 2], hookedFishType: tmp[leng - 1]
