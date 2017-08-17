@@ -59,7 +59,7 @@ class GameLogic {
 
 
 
-    //socket连接成功之后的处理
+    //socket连接成功之后的处理// kongbai
     private onSocketOpen(): void {
         let obj;
         if (this.player == 2) {
@@ -86,7 +86,7 @@ class GameLogic {
         let msg = this.WebSocket.readUTF();
         let recData = JSON.parse(msg);
         this.currentReqTime = +new Date();
-        // console.log(this.currentReqTime);.
+        // console.log(this.currentReqTime);
 
         switch (recData.type) {
             case 'leave':
