@@ -1,0 +1,9 @@
+/*
+!resource/
+!src/
+!.gitignore
+!README.md
+!egretProperties.json
+!manifest.json
+!tsconfig.json
+!wingProperties.json
