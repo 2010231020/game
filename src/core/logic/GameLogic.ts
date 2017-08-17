@@ -86,7 +86,7 @@ class GameLogic {
         let msg = this.WebSocket.readUTF();
         let recData = JSON.parse(msg);
         this.currentReqTime = +new Date();
-        // console.log(this.currentReqTime);
+        // console.log(this.currentReqTime);.
 
         switch (recData.type) {
             case 'leave':

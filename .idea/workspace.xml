@@ -3,17 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="7a69ba69-1e65-428d-927c-85aea8fa344f" name="Default" comment="stash my project">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin-debug/core/logic/GameLogic.js.map" afterPath="$PROJECT_DIR$/bin-debug/core/logic/GameLogic.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin-debug/core/view/Ship.js" afterPath="$PROJECT_DIR$/bin-debug/core/view/Ship.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin-debug/core/view/Ship.js.map" afterPath="$PROJECT_DIR$/bin-debug/core/view/Ship.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin-debug/core/view/Ship2.js" afterPath="$PROJECT_DIR$/bin-debug/core/view/Ship2.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin-debug/core/view/Ship2.js.map" afterPath="$PROJECT_DIR$/bin-debug/core/view/Ship2.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin-debug/core/vo/MonsterVO.js.map" afterPath="$PROJECT_DIR$/bin-debug/core/vo/MonsterVO.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin-debug/core/vo/RecData.js" afterPath="$PROJECT_DIR$/bin-debug/core/vo/RecData.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin-debug/core/vo/ShipVO.js.map" afterPath="$PROJECT_DIR$/bin-debug/core/vo/ShipVO.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/core/vo/MonsterVO.ts" afterPath="$PROJECT_DIR$/src/core/vo/MonsterVO.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/core/vo/RecData.ts" afterPath="$PROJECT_DIR$/src/core/vo/RecData.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/core/vo/ShipVO.ts" afterPath="$PROJECT_DIR$/src/core/vo/ShipVO.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/core/logic/GameLogic.ts" afterPath="$PROJECT_DIR$/src/core/logic/GameLogic.ts" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -39,19 +29,29 @@
             <state relative-caret-position="0">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding>
-                <marker date="1502941142533" expanded="true" signature="59:1049" ph="{...}" />
-                <marker date="1502941142533" expanded="true" signature="550:766" ph="{...}" />
-                <marker date="1502941142533" expanded="true" signature="799:1047" ph="{...}" />
+                <marker date="1502943157764" expanded="true" signature="59:1051" ph="{...}" />
+                <marker date="1502943157764" expanded="true" signature="552:768" ph="{...}" />
+                <marker date="1502943157764" expanded="true" signature="801:1049" ph="{...}" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Ship2.ts" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Ship2.ts" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/core/view/Ship2.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="752">
-              <caret line="35" column="30" lean-forward="false" selection-start-line="35" selection-start-column="30" selection-end-line="35" selection-end-column="30" />
+            <state relative-caret-position="122">
+              <caret line="14" column="5" lean-forward="true" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GameLogic.ts" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/core/logic/GameLogic.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="133" column="43" lean-forward="true" selection-start-line="133" selection-start-column="43" selection-end-line="133" selection-end-column="43" />
               <folding />
             </state>
           </provider>
@@ -111,6 +111,24 @@
             <path>
               <item name="game" type="b2602c69:ProjectViewProjectNode" />
               <item name="game" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="game" type="b2602c69:ProjectViewProjectNode" />
+              <item name="game" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="game" type="b2602c69:ProjectViewProjectNode" />
+              <item name="game" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="core" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="game" type="b2602c69:ProjectViewProjectNode" />
+              <item name="game" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="core" type="462c0819:PsiDirectoryNode" />
+              <item name="logic" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -203,7 +221,7 @@
       <workItem from="1502789795503" duration="674000" />
       <workItem from="1502850606622" duration="4000" />
       <workItem from="1502936617075" duration="30000" />
-      <workItem from="1502937545430" duration="3032000" />
+      <workItem from="1502937545430" duration="3539000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1502073193677</created>
@@ -226,11 +244,18 @@
       <option name="project" value="LOCAL" />
       <updated>1502790459041</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="stash my project">
+      <created>1502942936318</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1502942936318</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5702000" />
+    <option name="totallyTimeSpent" value="6209000" />
   </component>
   <component name="TodoView" selected-index="3">
     <todo-panel id="selected-file">
@@ -249,7 +274,7 @@
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24920969" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32905984" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="调试" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3284055" sideWeight="0.50625" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32826087" sideWeight="0.50625" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32905984" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="运行" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
@@ -436,17 +461,25 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1502941142533" expanded="true" signature="59:1049" ph="{...}" />
-            <marker date="1502941142533" expanded="true" signature="550:766" ph="{...}" />
-            <marker date="1502941142533" expanded="true" signature="799:1047" ph="{...}" />
+            <marker date="1502943157764" expanded="true" signature="59:1051" ph="{...}" />
+            <marker date="1502943157764" expanded="true" signature="552:768" ph="{...}" />
+            <marker date="1502943157764" expanded="true" signature="801:1049" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/core/view/Ship2.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="752">
-          <caret line="35" column="30" lean-forward="false" selection-start-line="35" selection-start-column="30" selection-end-line="35" selection-end-column="30" />
+        <state relative-caret-position="122">
+          <caret line="14" column="5" lean-forward="true" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/core/logic/GameLogic.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="133" column="43" lean-forward="true" selection-start-line="133" selection-start-column="43" selection-end-line="133" selection-end-column="43" />
           <folding />
         </state>
       </provider>
