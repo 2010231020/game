@@ -55,14 +55,14 @@ var GameScene = (function (_super) {
         // }, this, [player]);
     };
     /**清除分数*/
-    GameScene.prototype.clearScore = function (player) {
-        var score_txt = "score_txt_" + player + "p";
-        this["total_score_txt_" + player + "p"].text = this["score_" + player + "p"].toString();
-        this[score_txt].visible = false;
-        this[score_txt].y = 100;
-        this[score_txt].alpha = 1;
-        GameLogic.getInstance().sendGameData(new SendData('goOn', {}));
-    };
+    // private clearScore(player: number): void {
+    //     let score_txt = `score_txt_${player}p`;
+    //     this[`total_score_txt_${player}p`].text = this[`score_${player}p`].toString();
+    //     this[score_txt].visible = false;
+    //     this[score_txt].y = 100;
+    //     this[score_txt].alpha = 1;
+    //     GameLogic.getInstance().sendGameData(new SendData('goOn', {}));
+    // }
     /**更改别的玩家分数*/
     GameScene.prototype.setAnotherScore = function (player, score) {
         if (this.player != player) {
@@ -101,8 +101,7 @@ var GameScene = (function (_super) {
     };
     /**出钩*/
     GameScene.prototype.start = function () {
-        var sendData = new SendData('startThrow', {});
-        GameLogic.getInstance().sendGameData(sendData);
+        GameLogic.getInstance().sendGameData(Util.SEND_MESSAGE, 'startThrow');
     };
     /**移除所有怪物*/
     GameScene.prototype.removeMonsters = function () {

@@ -21,6 +21,7 @@ var Ship2 = (function (_super) {
         _this.skinName = "ShipSkin2";
         return _this;
     }
+    // kongbai
     Ship2.prototype.childrenCreated = function () {
         _super.prototype.childrenCreated.call(this);
         this.zeroX = this.x;

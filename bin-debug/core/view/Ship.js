@@ -20,6 +20,7 @@ var Ship = (function (_super) {
         _this.skinName = "ShipSkin";
         return _this;
     }
+    // kongbai
     Ship.prototype.childrenCreated = function () {
         _super.prototype.childrenCreated.call(this);
         this.zeroX = this.x;

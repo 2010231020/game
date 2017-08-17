@@ -28,7 +28,7 @@ var Monster = (function (_super) {
     /**上上下下的动画s*/
     Monster.prototype.play = function () {
         var tw = egret.Tween.get(this.bg);
-        tw.to({ y: -5 }, 1000).wait(200).to({ y: 5 }, 1000).call(this.play, this);
+        // tw.to({ y: -5 }, 1000).wait(200).to({ y: 5 }, 1000).call(this.play, this);
     };
     Monster.prototype.start = function () {
         // this.birthX = 0;
@@ -42,11 +42,11 @@ var Monster = (function (_super) {
         var tw = egret.Tween.get(this);
         if (this.vo.swimDirection == 0) {
             this.tarX = this.x + this.vo.swimSpeed * 20;
-            tw.to({ x: this.tarX, y: this.tarY }, 1000);
+            tw.to({ x: this.tarX, y: this.tarY }, 2000);
         }
         else if (this.vo.swimDirection == 1) {
             this.tarX = this.x - this.vo.swimSpeed * 20;
-            tw.to({ x: this.tarX, y: this.tarY }, 1000);
+            tw.to({ x: this.tarX, y: this.tarY }, 2000);
         }
     };
     Monster.prototype.moveOver = function () {

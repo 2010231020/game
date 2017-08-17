@@ -1,0 +1,8 @@
+{
+  "CHECK_USER": 0,
+  "CHECK_GAME_SERVER": 1,
+  "CREATE_ROOM": 10,
+  "JOIN_ROOM": 11,
+  "LEAVE_ROOM": 13,
+  "SEND_MESSAGE": 21
+}
