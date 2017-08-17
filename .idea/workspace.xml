@@ -49,8 +49,8 @@
       <file leaf-file-name="GameLogic.ts" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/core/logic/GameLogic.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="390">
-              <caret line="142" column="45" lean-forward="true" selection-start-line="142" selection-start-column="45" selection-end-line="142" selection-end-column="45" />
+            <state relative-caret-position="690">
+              <caret line="176" column="31" lean-forward="true" selection-start-line="176" selection-start-column="31" selection-end-line="176" selection-end-column="31" />
               <folding />
             </state>
           </provider>
@@ -146,7 +146,7 @@
     <property name="HbShouldOpenHtmlAsHb" value="" />
     <property name="FullScreen" value="false" />
     <property name="recentsLimit" value="5" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+    <property name="settings.editor.selected.configurable" value="settings.github" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -220,7 +220,7 @@
       <workItem from="1502789795503" duration="674000" />
       <workItem from="1502850606622" duration="4000" />
       <workItem from="1502936617075" duration="30000" />
-      <workItem from="1502937545430" duration="3680000" />
+      <workItem from="1502937545430" duration="5318000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1502073193677</created>
@@ -257,11 +257,18 @@
       <option name="project" value="LOCAL" />
       <updated>1502943307647</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="stash my project">
+      <created>1502943440193</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1502943440193</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6350000" />
+    <option name="totallyTimeSpent" value="7988000" />
   </component>
   <component name="TodoView" selected-index="3">
     <todo-panel id="selected-file">
@@ -484,8 +491,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/core/logic/GameLogic.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="142" column="45" lean-forward="true" selection-start-line="142" selection-start-column="45" selection-end-line="142" selection-end-column="45" />
+        <state relative-caret-position="690">
+          <caret line="176" column="31" lean-forward="true" selection-start-line="176" selection-start-column="31" selection-end-line="176" selection-end-column="31" />
           <folding />
         </state>
       </provider>
