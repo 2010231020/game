@@ -1,7 +1,7 @@
 {
 	"groups": [
 		{
-			"keys": "gold_png,handler_json",
+			"keys": "gold_png,handler_json,gold1_png,gouzi1_png,l1b_png,monster1_gif,monster11_png,s131_png,stone11_png,t1_jpg",
 			"name": "preload"
 		},
 		{
@@ -94,6 +94,46 @@
 			"name": "handler_json",
 			"type": "json",
 			"url": "config/handler.json"
+		},
+		{
+			"name": "gold1_png",
+			"type": "image",
+			"url": "assets/game_ui/gold1.png"
+		},
+		{
+			"name": "gouzi1_png",
+			"type": "image",
+			"url": "assets/game_ui/gouzi1.png"
+		},
+		{
+			"name": "l1b_png",
+			"type": "image",
+			"url": "assets/game_ui/l1b.png"
+		},
+		{
+			"name": "monster1_gif",
+			"type": "image",
+			"url": "assets/game_ui/monster1.gif"
+		},
+		{
+			"name": "monster11_png",
+			"type": "image",
+			"url": "assets/game_ui/monster11.png"
+		},
+		{
+			"name": "s131_png",
+			"type": "image",
+			"url": "assets/game_ui/s131.png"
+		},
+		{
+			"name": "stone11_png",
+			"type": "image",
+			"url": "assets/game_ui/stone11.png"
+		},
+		{
+			"name": "t1_jpg",
+			"type": "image",
+			"url": "assets/game_ui/t1.jpg"
 		}
 	]
 }

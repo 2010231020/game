@@ -4,21 +4,18 @@
  * @author 
  *
  */
-class Ship2 extends eui.Component
-{
+class Ship2 extends eui.Component {
     private line: egret.Shape;
     private zeroX: number;
     private zeroY: number;
-    private catchID:number = -1;
-    private lineColor: number=0xFF00FF;
-    public constructor()
-    {
+    private catchID: number = -1;
+    private lineColor: number = 0xFF00FF;
+    public constructor() {
         super();
         this.skinName = "ShipSkin2";
     }
-// kongbai
-    protected childrenCreated(): void
-    {
+    // kongbai
+    protected childrenCreated(): void {
         super.childrenCreated();
         this.zeroX = this.x;
         this.zeroY = this.y;
@@ -26,15 +23,14 @@ class Ship2 extends eui.Component
         this.parent.addChild(this.line);
     }
 
-    public setPos(): void{
+    public setPos(): void {
         this.x = GameLogic.getInstance().shipData[1].xPos;
         this.y = GameLogic.getInstance().shipData[1].yPos;
-        this.rotation=90-GameLogic.getInstance().shipData[1].r;
+        this.rotation = 90 - GameLogic.getInstance().shipData[1].r;
         this.changeline();
     }
 
-    private changeline(): void
-    {
+    private changeline(): void {
         this.line.graphics.clear();
         this.line.graphics.lineStyle(2, this.lineColor);
         this.line.graphics.moveTo(this.zeroX, this.zeroY);

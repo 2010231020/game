@@ -91,26 +91,30 @@ class GameLogic {
         // console.log(this.currentReqTime);
         // var recStack = new Stack();
 
-        switch (recData['gd'].type) {
-            case 'leave':
-                this.closeSocket();
-                break;
-            case 'startGame':
-                //do recData.msg
-                this.createGame(recData['gd']);
-                console.log(recData['gd']);
-                this.beginGame();
-                break;
-            case 'updateTank':
-                if (this.oldReqTime && this.oldReqTime < this.currentReqTime) {
-                    this.changePos(recData['gd']);
-                    this.game.initMonsters();
-                    this.game.ship_1p.setPos();
-                    this.game.ship_2p.setPos();
-                    this.game.setScore();
-                }
-                this.oldReqTime = this.currentReqTime;
-                break;
+        if (recData['handler'] == Util.SEND_MESSAGE) {
+            switch (recData['gd'].type) {
+                case 'leave':
+                    this.closeSocket();
+                    break;
+                case 'startGame':
+                    //do recData.msg
+                    this.createGame(recData['gd']);
+                    console.log(recData['gd']);
+                    this.beginGame();
+                    break;
+                case 'updateTank':
+                    if (this.oldReqTime && this.oldReqTime < this.currentReqTime) {
+                        this.changePos(recData['gd']);
+                        this.game.initMonsters();
+                        this.game.ship_1p.setPos();
+                        this.game.ship_2p.setPos();
+                        this.game.setScore();
+                    }
+                    this.oldReqTime = this.currentReqTime;
+                    break;
+            }
+        } else if (recData['handler'] == Util.LEAVE_ROOM) {
+            this.closeSocket();
         }
     }
     private changePos(tank: Object): void {
