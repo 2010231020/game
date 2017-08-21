@@ -146,6 +146,7 @@ class GameLogic {
             vo1.throwDirection = tank['leftHook'].throwDirection;
             vo1.rollDirection = tank['leftHook'].rollDirection;
             vo1.isThrowing = tank['leftHook'].isThrowing;
+            vo1.hookedFishType = tank['leftHook'].hookedFishType;
             this.shipData.push(vo1);
             let vo2: ShipVO = new ShipVO();
             vo2.xPos = tank['rightHook'].x;
@@ -155,6 +156,7 @@ class GameLogic {
             vo2.throwDirection = tank['rightHook'].throwDirection;
             vo2.rollDirection = tank['rightHook'].rollDirection;
             vo2.isThrowing = tank['rightHook'].isThrowing;
+            vo2.hookedFishType = tank['rightHook'].hookedFishType;
             this.shipData.push(vo2);
             // console.log(vo1.r,vo2.r);
         }

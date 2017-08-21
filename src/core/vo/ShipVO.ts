@@ -24,4 +24,6 @@ class ShipVO {
 	public  throwDirection:number;
 	/**摆动方向：1右   -1左*/
 	public  rollDirection:number;
+	/**上钩的鱼的下标*/
+	public  hookedFishType:number;
 }

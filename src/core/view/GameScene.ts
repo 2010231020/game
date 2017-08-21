@@ -89,7 +89,14 @@ class GameScene extends eui.Component {
     /**怪开始动*/
     public monsterStart(): void {
         for (var i: number = 0; i < this.monsterArr.length; i++) {
-            this.monsterArr[i].start();
+            if (i == GameLogic.getInstance().shipData[0].hookedFishType) {//被左钩钩中
+                this.monsterArr[i].toHook(0);//鱼去左钩的动画
+            }
+            else if (i == GameLogic.getInstance().shipData[1].hookedFishType) {//被右钩钩中
+                this.monsterArr[i].toHook(1);//鱼去右钩的动画
+            } else {
+                this.monsterArr[i].start();
+            }
         }
     }
 
@@ -108,7 +115,7 @@ class GameScene extends eui.Component {
 
     /**出钩*/
     private start(): void {
-        GameLogic.getInstance().sendGameData(Util.SEND_MESSAGE,'startThrow');
+        GameLogic.getInstance().sendGameData(Util.SEND_MESSAGE, 'startThrow');
     }
 
     /**移除所有怪物*/
@@ -122,7 +129,7 @@ class GameScene extends eui.Component {
         }
         this.monsterArr = [];
     }
- 
+
     private gameOver(): void {
         GameLogic.getInstance().startMain();
     }

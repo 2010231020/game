@@ -43,8 +43,8 @@ class Ship extends eui.Component {
         // console.log(GameLogic.getInstance().shipData[0].isThrowing)
         // console.log(GameLogic.getInstance().shipData[0].throwDirection);//throwDirection
         // console.log(this.rotation)
+        egret.Tween.removeTweens(this);
         if (GameLogic.getInstance().shipData[0].isThrowing == "0") {
-            egret.Tween.removeTweens(this);
             this.tw1 = null;
             this.tw1 = egret.Tween.get(this);
             if (GameLogic.getInstance().shipData[0].rollDirection == 1) {
@@ -62,13 +62,12 @@ class Ship extends eui.Component {
                 }
             }
         } else {
-            egret.Tween.removeTweens(this);
             // console.log(this.x, this.y, this.x + 80 * Math.sin(this.rotation), this.y + 80 * Math.abs(Math.cos(this.rotation)));
             // console.log(GameLogic.getInstance().shipData[1].throwDirection);
             this.tw2 = null;
             this.tw2 = egret.Tween.get(this);
             this.tw2.to({ x: this.x - 80 * Math.sin(this.rotation / 180 * Math.PI) * GameLogic.getInstance().shipData[0].throwDirection, y: this.y + 80 * Math.abs(Math.cos(this.rotation / 180 * Math.PI)) * GameLogic.getInstance().shipData[0].throwDirection }, 1000);
-            
+
         }
         this.changeline();
     }
