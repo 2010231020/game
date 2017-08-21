@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='utf-8'?>
 <e:Skin class="GameSceneSkin" width="960" height="640" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
 	<e:Image width="960" height="500" horizontalCenter="0" source="l1b_jpg" bottom="0" locked="true"/>
-	<e:Image source="s7_png" y="0" horizontalCenter="208.5" locked="true"/>
-	<e:Image source="s7_png" y="0" horizontalCenter="-207.5" locked="true"/>
+	<e:Image source="s7_png" y="0" x="618" locked="true"/>
+	<e:Image source="s7_png" y="0" x="202" locked="true"/>
 	<ns1:Ship2 id="ship_2p" y="110" anchorOffsetX="21" x="690" skinName="ShipSkin2"/>
 	<e:Label id="score_txt_2p" text="+999" x="540" y="95" textColor="0xE211EE" bold="true" fontFamily="Comic Sans MS" width="81"/>
 	<e:Label id="score_txt_1p" text="+999" x="354" y="95" textColor="0xE211EE" bold="true" fontFamily="Comic Sans MS" width="81"/>

@@ -46,11 +46,12 @@ class Monster extends egret.Sprite {
 
         var tw = egret.Tween.get(this);
         if (this.vo.swimDirection == 0) {
+            this.skewY=180;
             this.tarX = this.x + this.vo.swimSpeed * 20;
             tw.to({ x: this.tarX, y: this.tarY }, 2000);
         } else if (this.vo.swimDirection == 1) {
             this.tarX = this.x - this.vo.swimSpeed * 20;
-            tw.to({ x: this.tarX, y: this.tarY }, 2000);
+            tw.to({ x: this.tarX, y: this.tarY }, 2000);//鱼动画
         }
     }
 

@@ -84,9 +84,9 @@ class GameLogic {
     //socket获得数据之后的处理，测试git
     private onReceiveMessage(): void {
         let msg = this.WebSocket.readUTF();
-        console.log(msg);
+        // console.log(msg);
         let recData = Util.deconstruct(msg);
-        console.log(recData['gd'].type);
+        // console.log(recData['gd'].type);
         this.currentReqTime = +new Date();
         // console.log(this.currentReqTime);
         // var recStack = new Stack();
@@ -99,8 +99,10 @@ class GameLogic {
                 case 'startGame':
                     //do recData.msg
                     this.createGame(recData['gd']);
-                    console.log(recData['gd']);
                     this.beginGame();
+                    this.game.initMonsters();
+                    this.game.ship_1p.setPos();
+                    this.game.ship_2p.setPos();
                     break;
                 case 'updateTank':
                     if (this.oldReqTime && this.oldReqTime < this.currentReqTime) {
@@ -141,12 +143,18 @@ class GameLogic {
             vo1.yPos = tank['leftHook'].y;
             vo1.score = tank['leftHook'].score;
             vo1.r = tank['leftHook'].r;
+            vo1.throwDirection = tank['leftHook'].throwDirection;
+            vo1.rollDirection = tank['leftHook'].rollDirection;
+            vo1.isThrowing = tank['leftHook'].isThrowing;
             this.shipData.push(vo1);
             let vo2: ShipVO = new ShipVO();
             vo2.xPos = tank['rightHook'].x;
             vo2.yPos = tank['rightHook'].y;
             vo2.score = tank['rightHook'].score;
             vo2.r = tank['rightHook'].r;
+            vo2.throwDirection = tank['rightHook'].throwDirection;
+            vo2.rollDirection = tank['rightHook'].rollDirection;
+            vo2.isThrowing = tank['rightHook'].isThrowing;
             this.shipData.push(vo2);
             // console.log(vo1.r,vo2.r);
         }

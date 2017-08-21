@@ -24,8 +24,8 @@ class Util {
 			hasHooked: tmp[leng - hookDataRange - 2], hookedFishType: tmp[leng - hookDataRange - 1]
 		};
 		let rightHook = {
-			throwDirection: tmp[leng - hookDataRange - 9],
-			rollDirection: tmp[leng - hookDataRange - 8],
+			throwDirection: tmp[leng  - 9],
+			rollDirection: tmp[leng  - 8],
 			isThrowing: tmp[leng - 7],
 			x: tmp[leng - 6], y: tmp[leng - 5],
 			r: tmp[leng - 4], score: tmp[leng - 3],
