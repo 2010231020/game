@@ -32,8 +32,9 @@ class Monster extends egret.Sprite {
         var tw = egret.Tween.get(this.bg);
         // tw.to({ y: -5 }, 1000).wait(200).to({ y: 5 }, 1000).call(this.play, this);
     }
-    /**上上下下的动画s*/
+    /**钩住后*/
     public toHook(ind: number): void {
+        egret.Tween.removeTweens(this);
         this.x = this.vo.xPos;
         this.y = this.vo.yPos;
         this.visible = true;
@@ -46,7 +47,8 @@ class Monster extends egret.Sprite {
         }
 
         if (this.vo.swimDirection == 0) {
-            this.skewY = 180;
+            this.skewY = 180;//鱼反向；
+            this.x=this.x+RES.getRes("mission_json")[this.vo.id]["width"]
         }
 
         var tw = egret.Tween.get(this);
@@ -68,6 +70,8 @@ class Monster extends egret.Sprite {
         var tw = egret.Tween.get(this);
         if (this.vo.swimDirection == 0) {
             this.skewY = 180;
+            this.x = this.vo.xPos+RES.getRes("mission_json")[this.vo.id]["width"];
+            // console.log(RES.getRes("mission_json")[this.vo.id]["width"]);
             this.tarX = this.x + this.vo.swimSpeed * 20;
             tw.to({ x: this.tarX, y: this.tarY }, 2000);
         } else if (this.vo.swimDirection == 1) {

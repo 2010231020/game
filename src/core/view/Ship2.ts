@@ -33,12 +33,13 @@ class Ship2 extends eui.Component {
         this.x = GameLogic.getInstance().shipData[1].xPos;
         this.y = GameLogic.getInstance().shipData[1].yPos;
         this.rotation = 90 - GameLogic.getInstance().shipData[1].r;
-        console.log(this.rotation)
+        // console.log(this.rotation)
         // console.log(GameLogic.getInstance().shipData[1].rollDirection,'2p')
         egret.Tween.removeTweens(this);
         if (GameLogic.getInstance().shipData[1].isThrowing == "0") {
             this.tw1 = null;
             this.tw1 = egret.Tween.get(this);
+            this.changeline();
             if (GameLogic.getInstance().shipData[1].rollDirection == 1) {
                 if (this.rotation - 100 > -this.zeroR) {
                     this.tw1.to({ rotation: this.rotation - 100 }, 2000);
@@ -59,16 +60,23 @@ class Ship2 extends eui.Component {
             this.tw2 = null;
             this.tw2 = egret.Tween.get(this);
             this.tw2.to({ x: this.x - 80 * Math.sin(this.rotation / 180 * Math.PI) * GameLogic.getInstance().shipData[1].throwDirection, y: this.y + 80 * Math.abs(Math.cos(this.rotation / 180 * Math.PI)) * GameLogic.getInstance().shipData[1].throwDirection }, 1000);
+            this.changeline();
         }
-        this.changeline();
     }
 
     private changeline(): void {
+        var realTimex = this.x;
+        var realTimey = this.y;
         this.line.graphics.clear();
         this.line.graphics.lineStyle(2, this.lineColor);
         this.line.graphics.moveTo(this.zeroX, this.zeroY);
         this.line.graphics.lineTo(this.x - 16 * Math.sin(this.rotation / 180 * Math.PI), this.y + 16 * Math.abs(Math.cos(this.rotation / 180 * Math.PI)));
         this.line.graphics.endFill();
+        // this.addEventListener(egret.Event.ENTER_FRAME, (evt: egret.Event) => {
+        //     realTimex -=2.4 * Math.sin(this.rotation / 180 * Math.PI) ;
+        //     realTimey +=2.4 * Math.abs(Math.cos(this.rotation / 180 * Math.PI));
+        //     this.line.graphics.lineTo(realTimex, realTimey);
+        // }, this);
         if (GameLogic.getInstance().shipData[1].isThrowing == "0") {
             this.line.graphics.clear();
         }

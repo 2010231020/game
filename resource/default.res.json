@@ -1,139 +1,159 @@
 {
 	"groups": [
 		{
-			"keys": "gold_png,handler_json,gold1_png,gouzi1_png,l1b_png,monster1_gif,monster11_png,s131_png,stone11_png,t1_jpg",
+			"keys": "handler_json,mainInterface_jpg,zz_ng_png",
 			"name": "preload"
 		},
 		{
-			"keys": "l1b_jpg,l3b_jpg,s13_png,s7_png,submit_png,t_jpg,zz_hi_png,zz_l2b_jpg,zz_ng_png,zz_s13_png,zz_s14_png,monster1_png,stone1_png,gold_png,mission_json,gouzi_png",
+			"keys": "fishPond_png,s7_png,submit_png,mainInterface_jpg,zz_hi_png,zz_ng_png,fish5_png,fish2_png,fish1_png,fish3_png,fish0_png,mission_json,gouzi_png,fish4_png,fish6_png,fish7_png,fish8_png",
 			"name": "game"
 		}
 	],
 	"resources": [
 		{
-			"name": "l1b_jpg",
+			"url": "assets/game_ui/fishPond.png",
 			"type": "image",
-			"url": "assets/game_ui/l1b.png"
+			"name": "fishPond_png"
 		},
 		{
-			"name": "l3b_jpg",
+			"url": "assets/game_ui/s7.png",
 			"type": "image",
-			"url": "assets/game_ui/l3b.jpg"
+			"name": "s7_png"
 		},
 		{
-			"name": "s13_png",
+			"url": "assets/game_ui/submit.png",
 			"type": "image",
-			"url": "assets/game_ui/s13.png"
+			"name": "submit_png"
 		},
 		{
-			"name": "s7_png",
+			"url": "assets/game_ui/mainInterface.jpg",
 			"type": "image",
-			"url": "assets/game_ui/s7.png"
+			"name": "mainInterface_jpg"
 		},
 		{
-			"name": "submit_png",
+			"url": "assets/game_ui/fish5.png",
 			"type": "image",
-			"url": "assets/game_ui/submit.png"
+			"name": "fish5_png"
 		},
 		{
-			"name": "t_jpg",
+			"url": "assets/game_ui/fish2.png",
 			"type": "image",
-			"url": "assets/game_ui/t.jpg"
+			"name": "fish2_png"
 		},
 		{
-			"name": "zz_hi_png",
+			"url": "assets/game_ui/fish1.png",
 			"type": "image",
-			"url": "assets/game_ui/zz_hi.png"
+			"name": "fish1_png"
 		},
 		{
-			"name": "zz_l2b_jpg",
+			"url": "assets/game_ui/fish3.png",
 			"type": "image",
-			"url": "assets/game_ui/zz_l2b.jpg"
+			"name": "fish3_png"
 		},
 		{
-			"name": "zz_ng_png",
+			"url": "assets/game_ui/fish0.png",
 			"type": "image",
-			"url": "assets/game_ui/zz_ng.png"
+			"name": "fish0_png"
 		},
 		{
-			"name": "zz_s13_png",
-			"type": "image",
-			"url": "assets/game_ui/zz_s13.png"
-		},
-		{
-			"name": "zz_s14_png",
-			"type": "image",
-			"url": "assets/game_ui/zz_s14.png"
-		},
-		{
-			"name": "monster1_png",
-			"type": "image",
-			"url": "assets/game_ui/monster1.png"
-		},
-		{
-			"name": "stone1_png",
-			"type": "image",
-			"url": "assets/game_ui/stone1.png"
-		},
-		{
-			"name": "gold_png",
-			"type": "image",
-			"url": "assets/game_ui/gold.png"
-		},
-		{
-			"name": "mission_json",
+			"url": "config/mission.json",
 			"type": "json",
-			"url": "config/mission.json"
+			"name": "mission_json"
 		},
 		{
-			"name": "gouzi_png",
+			"url": "assets/game_ui/gouzi.png",
 			"type": "image",
-			"url": "assets/game_ui/gouzi.png"
+			"name": "gouzi_png"
 		},
 		{
-			"name": "handler_json",
+			"url": "config/handler.json",
 			"type": "json",
-			"url": "config/handler.json"
+			"name": "handler_json"
 		},
 		{
-			"name": "gold1_png",
+			"url": "assets/game_ui/gold1.png",
 			"type": "image",
-			"url": "assets/game_ui/gold1.png"
+			"name": "gold1_png"
 		},
 		{
-			"name": "gouzi1_png",
+			"url": "assets/game_ui/gouzi1.png",
 			"type": "image",
-			"url": "assets/game_ui/gouzi1.png"
+			"name": "gouzi1_png"
 		},
 		{
-			"name": "l1b_png",
+			"url": "assets/game_ui/l1b.png",
 			"type": "image",
-			"url": "assets/game_ui/l1b.png"
+			"name": "l1b_png"
 		},
 		{
-			"name": "monster1_gif",
+			"url": "assets/game_ui/monster1.gif",
 			"type": "image",
-			"url": "assets/game_ui/monster1.gif"
+			"name": "monster1_gif"
 		},
 		{
-			"name": "monster11_png",
+			"url": "assets/game_ui/monster11.png",
 			"type": "image",
-			"url": "assets/game_ui/monster11.png"
+			"name": "monster11_png"
 		},
 		{
-			"name": "s131_png",
+			"url": "assets/game_ui/s131.png",
 			"type": "image",
-			"url": "assets/game_ui/s131.png"
+			"name": "s131_png"
 		},
 		{
-			"name": "stone11_png",
+			"url": "assets/game_ui/stone11.png",
 			"type": "image",
-			"url": "assets/game_ui/stone11.png"
+			"name": "stone11_png"
 		},
 		{
-			"name": "t1_jpg",
+			"url": "assets/game_ui/t1.jpg",
 			"type": "image",
-			"url": "assets/game_ui/t1.jpg"
+			"name": "t1_jpg"
+		},
+		{
+			"url": "assets/game_ui/l3b.jpg",
+			"type": "image",
+			"name": "l3b_jpg"
+		},
+		{
+			"url": "assets/game_ui/s13.png",
+			"type": "image",
+			"name": "s13_png"
+		},
+		{
+			"url": "assets/game_ui/zz_hi.png",
+			"type": "image",
+			"name": "zz_hi_png"
+		},
+		{
+			"url": "assets/game_ui/zz_l2b.jpg",
+			"type": "image",
+			"name": "zz_l2b_jpg"
+		},
+		{
+			"url": "assets/game_ui/zz_ng.png",
+			"type": "image",
+			"name": "zz_ng_png"
+		},
+		{
+			"url": "assets/game_ui/fish4.png",
+			"type": "image",
+			"name": "fish4_png"
+		},
+		{
+			"url": "assets/game_ui/fish6.png",
+			"type": "image",
+			"name": "fish6_png"
+		},
+		{
+			"url": "assets/game_ui/fish7.png",
+			"type": "image",
+			"name": "fish7_png"
+		},
+		{
+			"url": "assets/game_ui/fish8.png",
+			"type": "image",
+			"name": "fish8_png"
 		}
 	]
 }

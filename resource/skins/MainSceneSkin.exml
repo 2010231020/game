@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
 <e:Skin class="MainSceneSkin" width="960" height="640" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
-	<e:Image source="t_jpg" width="960" height="640" horizontalCenter="0" verticalCenter="0"/>
+	<e:Image width="960" height="640" horizontalCenter="0" verticalCenter="0" source="mainInterface_jpg"/>
 	<e:Image id="start_btn" source="zz_ng_png" y="462" width="217" height="79" horizontalCenter="0" visible="false"/>
 </e:Skin>

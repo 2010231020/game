@@ -1,32 +1,65 @@
 [
     {
         "id": 0,
-        "image": "gold_png",
+        "image": "fish0_png",
         "score": 500,
-        "swimSpeed":2
+        "swimSpeed":8,
+        "width":68
     },
     {
         "id": 1,
-        "image": "monster1_png",
+        "image": "fish1_png",
         "score": 999,
-        "swimSpeed": 4
+        "swimSpeed": 4 ,
+        "width":83
     },
     {
         "id": 2,
-        "image": "s13_png",
+        "image": "fish2_png",
         "score": 1500,
-        "swimSpeed": 4
+        "swimSpeed": 2,
+        "width":96
     },
     {
         "id": 3,
-        "image": "stone1_png",
+        "image": "fish3_png",
         "score": -50,
-        "swimSpeed": 8
+        "swimSpeed": 8,
+        "width":56
     },
     {
         "id": 4,
-        "image": "stone1_png",
+        "image": "fish4_png",
         "score": -50,
-        "swimSpeed": 8
+        "swimSpeed": 2,
+        "width":101
+    },
+    {
+        "id": 5,
+        "image": "fish5_png",
+        "score": -50,
+        "swimSpeed": 4,
+        "width":95
+    },
+    {
+        "id": 6,
+        "image": "fish6_png",
+        "score": -50,
+        "swimSpeed": 8,
+        "width":54
+    },
+    {
+        "id": 7,
+        "image": "fish7_png",
+        "score": -50,
+        "swimSpeed": 8,
+        "width":62
+    },
+    {
+        "id": 8,
+        "image": "fish8_png",
+        "score": -50,
+        "swimSpeed": 4,
+        "width":68
     }
 ]
