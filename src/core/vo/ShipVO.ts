@@ -26,4 +26,6 @@ class ShipVO {
 	public  rollDirection:number;
 	/**上钩的鱼的下标*/
 	public  hookedFishType:number;
+	/**记录钩中鱼的动画播放状态：true：播放中，false：未播放*/
+	public  backMV:boolean;
 }

@@ -89,15 +89,15 @@ class GameScene extends eui.Component {
     /**怪开始动*/
     public monsterStart(): void {
         for (var i: number = 0; i < this.monsterArr.length; i++) {
-            if (i == GameLogic.getInstance().shipData[0].hookedFishType) {//被左钩钩中
-                this.monsterArr[i].toHook(0);//鱼去左钩的动画
-            }
-            else if (i == GameLogic.getInstance().shipData[1].hookedFishType) {//被右钩钩中
-                this.monsterArr[i].toHook(1);//鱼去右钩的动画
-            } else {
-                this.monsterArr[i].start();
-            }
+            this.monsterArr[i].start();
         }
+    }
+    /**怪往钩子拉回*/
+    public monsterBack(monster: MonsterVO, ind: number): void {
+
+        var m: Monster = new Monster(monster);
+        this.addChild(m);
+        m.toHook(ind);//鱼去左钩的动画
     }
 
     /**检测是否抓住*/

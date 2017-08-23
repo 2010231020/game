@@ -12,6 +12,7 @@ class GameLogic {
     private static _instance: GameLogic;
     private WebSocket: egret.WebSocket;
     public player: number;
+    public endplay: number = 0;
     public static getInstance(): GameLogic {
         if (this._instance == null) {
             this._instance = new GameLogic();
@@ -84,7 +85,6 @@ class GameLogic {
     //socket获得数据之后的处理，测试git
     private onReceiveMessage(): void {
         let msg = this.WebSocket.readUTF();
-        // console.log(msg);
         let recData = Util.deconstruct(msg);
         // console.log(recData['gd'].type);
         this.currentReqTime = +new Date();
@@ -95,6 +95,8 @@ class GameLogic {
             switch (recData['gd'].type) {
                 case 'leave':
                     this.closeSocket();
+                    this.endplay = 1;
+                    console.log(this.endplay);
                     break;
                 case 'startGame':
                     //do recData.msg
@@ -120,10 +122,11 @@ class GameLogic {
         }
     }
     private changePos(tank: Object): void {
+        let arr: Object[] = RES.getRes("mission_json");
         if (this.data != null) {
             this.data = [];
-            let arr: Object[] = RES.getRes("mission_json");
             for (let i: number = 0; i < tank['fishList'].length; i++) {
+                //鱼的数据
                 let vo: MonsterVO = new MonsterVO();
                 vo.id = tank['fishList'][i]['type'];
                 vo.image = arr[vo.id]['image'];
@@ -132,12 +135,13 @@ class GameLogic {
                 vo.swimSpeed = parseInt(arr[vo.id]['swimSpeed']);
                 vo.xPos = parseInt(tank['fishList'][i]['x']);
                 vo.yPos = parseInt(tank['fishList'][i]['y']);
+                // vo.ropeXPos= parseInt(tank['fishList'][i]['y'];
                 this.data.push(vo);
             }
         }
 
         if (this.shipData != null) {
-            this.shipData = [];
+            //钩子的数据
             let vo1: ShipVO = new ShipVO();
             vo1.xPos = tank['leftHook'].x;
             vo1.yPos = tank['leftHook'].y;
@@ -147,7 +151,26 @@ class GameLogic {
             vo1.rollDirection = tank['leftHook'].rollDirection;
             vo1.isThrowing = tank['leftHook'].isThrowing;
             vo1.hookedFishType = tank['leftHook'].hookedFishType;
-            this.shipData.push(vo1);
+            vo1.backMV = this.shipData[0].backMV;
+            if (vo1.isThrowing == '1' && vo1.hookedFishType >= 0) {
+                if (!vo1.backMV) {
+                    let vo: MonsterVO = new MonsterVO();
+
+                    vo.id = vo1.hookedFishType;
+                    vo.image = arr[vo.id]['image'];
+                    vo.xPos = vo1.xPos - arr[vo.id]['width'] / 2;
+                    vo.yPos = vo1.yPos - 0 + 48 - arr[vo.id]['height'] / 2;
+
+
+                    this.game.monsterBack(vo, 0);
+                    vo1.backMV = true;
+                }
+            }
+            console.log(vo1.xPos, vo1.yPos);
+            if (vo1.isThrowing == '0') {
+                vo1.backMV = false;
+            }
+            this.shipData[0] = vo1;
             let vo2: ShipVO = new ShipVO();
             vo2.xPos = tank['rightHook'].x;
             vo2.yPos = tank['rightHook'].y;
@@ -157,7 +180,7 @@ class GameLogic {
             vo2.rollDirection = tank['rightHook'].rollDirection;
             vo2.isThrowing = tank['rightHook'].isThrowing;
             vo2.hookedFishType = tank['rightHook'].hookedFishType;
-            this.shipData.push(vo2);
+            this.shipData[1] = vo2;
             // console.log(vo1.r,vo2.r);
         }
     }

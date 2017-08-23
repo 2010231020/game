@@ -11,8 +11,8 @@
 			"children":[
 				{
 					"isFolder":false,
-					"key":"fish0",
-					"name":"fish0"
+					"key":"fish0_png",
+					"name":"fish0_png"
 				},
 				{
 					"isFolder":false,
@@ -26,13 +26,13 @@
 				},
 				{
 					"isFolder":false,
-					"key":"fish1",
-					"name":"fish1"
+					"key":"fish1_png",
+					"name":"fish1_png"
 				},
 				{
 					"isFolder":false,
-					"key":"fish2",
-					"name":"fish2"
+					"key":"fish2_png",
+					"name":"fish2_png"
 				},
 				{
 					"isFolder":false,
@@ -41,8 +41,8 @@
 				},
 				{
 					"isFolder":false,
-					"key":"fish3",
-					"name":"fish3"
+					"key":"fish3_png",
+					"name":"fish3_png"
 				},
 				{
 					"isFolder":false,
@@ -61,13 +61,13 @@
 				},
 				{
 					"isFolder":false,
-					"key":"fish4",
-					"name":"fish4"
+					"key":"fish4_png",
+					"name":"fish4_png"
 				},
 				{
 					"isFolder":false,
-					"key":"fish5",
-					"name":"fish5"
+					"key":"fish5_png",
+					"name":"fish5_png"
 				},
 				{
 					"isFolder":false,
@@ -76,18 +76,18 @@
 				},
 				{
 					"isFolder":false,
-					"key":"fish6",
-					"name":"fish6"
+					"key":"fish6_png",
+					"name":"fish6_png"
 				},
 				{
 					"isFolder":false,
-					"key":"fish7",
-					"name":"fish7"
+					"key":"fish7_png",
+					"name":"fish7_png"
 				},
 				{
 					"isFolder":false,
-					"key":"fish8",
-					"name":"fish8"
+					"key":"fish8_png",
+					"name":"fish8_png"
 				}
 			]
 		}
