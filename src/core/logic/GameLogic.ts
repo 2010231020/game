@@ -232,7 +232,7 @@ class GameLogic {
     public startGame(): void {
         this.removeMain();
         let rand = 10000 * Math.random();
-        this.userId = Math.floor(rand);
+        this.userId = +Util.getUrlParams('uid') || Math.floor(rand);
         let req = new egret.HttpRequest();
         req.responseType = egret.HttpResponseType.TEXT;
         req.open(`${GameLogic.gameHost}&uid=${this.userId}&token=100098`, egret.HttpMethod.GET);

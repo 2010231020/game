@@ -10,6 +10,12 @@ class Util {
 		return appId + '|' + handler + '|' + uid + '|'
 			+ roomId + '|' + ts + '|' + encodeURI(gd);
 	}
+	public static  getUrlParams(name:string) :string{
+        var reg = new RegExp("(^|&)" + name + "=([^&]*)(&|$)", "i");
+        var r = decodeURI(window.location.search).substr(1).match(reg);
+        return r != null ? r[2] : null;
+    }
+
 	public static deconstruct(msg: string): Object {
 		let arr = msg.split('|');
 		let tmp = decodeURI(arr[5]).split(',');
